@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'UdemyCourse-Project';
+  recipeOrSopping:string="recipe";
+
+  changeView(headerToShow:string){
+    this.recipeOrSopping=headerToShow;
+  }
 }
